@@ -1,0 +1,4 @@
+{"group": "A", "selected": true,  "score": 0.90, "baseline_score": 0.10, "text": "contact jane@example.com"}
+{"group": "A", "selected": true,  "score": 0.90, "baseline_score": 0.10, "text": "ok"}
+{"group": "B", "selected": false, "score": 0.90, "baseline_score": 0.10, "text": "SSN 123-45-6789"}
+{"group": "B", "selected": false, "score": 0.90, "baseline_score": 0.10, "text": "key sk-live-abcdef123456"}

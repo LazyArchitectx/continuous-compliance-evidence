@@ -1,0 +1,4 @@
+{"group": "A", "selected": true,  "score": 0.50, "baseline_score": 0.50, "text": "all good"}
+{"group": "A", "selected": false, "score": 0.50, "baseline_score": 0.50, "text": "fine"}
+{"group": "B", "selected": true,  "score": 0.50, "baseline_score": 0.50, "text": "ok"}
+{"group": "B", "selected": false, "score": 0.50, "baseline_score": 0.50, "text": "clean"}

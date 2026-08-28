@@ -1,0 +1,15 @@
+# The compliance matrix, transcribed row-by-row into runnable controls.
+# Each control = a risk-board requirement + the check that proves it + its threshold.
+controls:
+  - id: RMF-MEASURE-2.11
+    name: "Disparate impact within bounds"
+    assertion: disparate_impact
+    threshold: { min_ratio: 0.8 }
+  - id: RMF-MEASURE-2.6
+    name: "No distribution shift beyond tolerance"
+    assertion: distribution_shift
+    threshold: { max_psi: 0.2 }
+  - id: RMF-MAP-1.1
+    name: "No PII in generated output"
+    assertion: pii_scan
+    threshold: { max_hits: 0 }
